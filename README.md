@@ -137,6 +137,7 @@ sui client publish --gas-budget 10000000 --network testnet
 ## 🏛️ Deployed Contracts
 
 ### Ethereum (Sepolia Testnet)
+EscrowFactory: 0xDE6318b24e0581F78f40Fcfe7caE1A1983d6aacC
 
 ### Sui (Testnet)
 

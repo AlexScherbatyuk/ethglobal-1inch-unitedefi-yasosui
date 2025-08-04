@@ -138,11 +138,6 @@ sui client publish --gas-budget 10000000 --network testnet
 
 ### Ethereum (Sepolia Testnet)
 
-- **CustomEscrowFactory**: `0xe9754c50880db91939814beb8b758e6b68709cd0`
-- **Resolver**: `0x4f38502d422d500f4a53294dd0074ed47319065d`
-- **CustomBaseEscrow**: `0x5bbe65544ce4af14a3f1912e46e8502ae593c4dc`
-- **CustomEscrowDst**: `0xf3592b3bf56921fb6513fb28ccefa47872371f4e`
-
 ### Sui (Testnet)
 
 - **EscrowFactory**: Deployed package ID (update in .env)

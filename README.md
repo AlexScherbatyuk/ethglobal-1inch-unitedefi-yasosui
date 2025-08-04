@@ -1,10 +1,10 @@
-# YaSosui - Cross-Chain Atomic Swaps
+# YasoSui - Cross-Chain Atomic Swaps
 
 A comprehensive cross-chain atomic swap platform enabling secure token exchanges between Ethereum and Sui networks with a modern web interface.
 
 ## 🚀 Overview
 
-YaSosui is a complete cross-chain swap solution that allows users to securely exchange tokens between Ethereum and Sui blockchains using atomic swaps. The platform features hashlock-based security, time-locked escrows, and a user-friendly web interface. Built on top of the 1inch Cross-Chain SDK, YaSosui leverages 1inch's battle-tested infrastructure to provide reliable, secure, and efficient cross-chain token swaps.
+YasoSui is a complete cross-chain swap solution that allows users to securely exchange tokens between Ethereum and Sui blockchains using atomic swaps. The platform features hashlock-based security, time-locked escrows, and a user-friendly web interface. Built on top of the 1inch Cross-Chain SDK, YasoSui leverages 1inch's battle-tested infrastructure to provide reliable, secure, and efficient cross-chain token swaps.
 
 ## 🏗️ Architecture
 
@@ -79,7 +79,7 @@ YaSosui/
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd YaSosui
+cd YasoSui
 
 # Install dependencies
 pnpm install
@@ -147,10 +147,10 @@ sui client publish --gas-budget 10000000 --network testnet
 
 - **EscrowFactory**: Deployed package ID (update in .env)
 
-## 🚀 How 1inch Protocol Enhances YaSosui
+## 🚀 How 1inch Protocol Enhances YasoSui
 
 ### Optimal Routing & Best Execution
-YaSosui leverages 1inch's advanced routing algorithms to find the most efficient swap paths across multiple DEXs and protocols. This ensures users get the best possible prices for their cross-chain swaps by:
+YasoSui leverages 1inch's advanced routing algorithms to find the most efficient swap paths across multiple DEXs and protocols. This ensures users get the best possible prices for their cross-chain swaps by:
 - **Multi-DEX aggregation**: Scanning hundreds of DEXs and AMMs for optimal liquidity
 - **Split routing**: Breaking large swaps into multiple smaller transactions for better execution
 - **Gas optimization**: Minimizing gas costs through intelligent route selection
